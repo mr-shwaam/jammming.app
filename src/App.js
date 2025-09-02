@@ -3,6 +3,10 @@ import './App.css';
 import './SearchBar.js';
 import SearchBar from './SearchBar.js';
 import AppTitle from './AppTitle.js';
+import SearchResults from './SearchResults.js';
+import Playlist from './Playlist.js';
+import Track from './Track.js';
+import Tracklist from './Tracklist.js';
 
 function App() {
   return (
