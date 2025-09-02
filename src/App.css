@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.App-main {
+  background-color: #0c0621;
+  min-height: 100vh;
+  padding: 20px;
+  color: rgb(251, 193, 122);
+}
+
+.hightlight {
+  color: #e99816e4;
+}

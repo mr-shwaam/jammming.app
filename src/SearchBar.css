@@ -2,4 +2,30 @@
   margin-top: 20px;
   color:aqua;
   display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.SearchBar input {
+  width: 300px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;  
+}
+.SearchButton {
+  padding: 10px 20px;
+  background-color: #360ea4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+.SearchButton:hover {
+  background-color: #222243;
+  cursor: pointer;
 }

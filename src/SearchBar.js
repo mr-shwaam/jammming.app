@@ -5,9 +5,12 @@ export default function SearchBar() {
 
 
   return (
-    <div className="SearchBar">
-      <input placeholder="Enter A Song, Album, or Artist" /> <br/>
+    <>
+      <div className="SearchBar">
+        <input placeholder="Enter A Song, Album, or Artist" /> <br/>
+      </div>
       <button className="SearchButton">SEARCH</button>
-    </div>
+    </>
+    
   );
 };

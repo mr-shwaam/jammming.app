@@ -16,9 +16,15 @@ function App() {
         
       </header>
 
-      <div>
-        <SearchBar />
-      </div>
+      <main className='App-main'>
+        <h2>Welcome to Ja<span className="highlight">mmm</span>ing!</h2>
+        <p>Jammming is a web application that allows users to search for songs, create playlists, and save them to their Spotify account. Start by searching for a song or artist above.</p> 
+
+        <div>
+          <SearchBar />
+        </div> 
+      </main>
+      
     </div>
   );
 }
