@@ -1,12 +1,11 @@
-import pressplay from './pressplay.svg';
+import pressplay from '../../Images/pressplay.svg'
 import './App.css';
-import './SearchBar.js';
-import SearchBar from './SearchBar.js';
-import AppTitle from './AppTitle.js';
-import SearchResults from './SearchResults.js';
-import Playlist from './Playlist.js';
-import Track from './Track.js';
-import Tracklist from './Tracklist.js';
+import SearchBar from '../SearchBar/SearchBar.js';
+import AppTitle from '../AppTitle/AppTitle.js';
+import SearchResults from '../SearchResults/SearchResults.js';  
+import Playlist from '../Playlist/Playlist.js';
+import Track from '../Track/Track.js';
+import Tracklist from '../Tracklist/Tracklist.js';
 
 function App() {
   return (
